@@ -13,26 +13,26 @@ const IndexPage = () => (
       data-netlify-honeypot="bot-field"
     >
       <div className="col-md-6">
-         <div className="form-group"><input placeholder="NAME" type="name" id="formBasicEmail" className="form-control" /><i className="fa fa-user"></i></div>
+         <div className="form-group"><input placeholder="NAME" type="name" id="formBasicEmail" name="name" className="form-control" /><i className="fa fa-user"></i></div>
       </div>
       <div className="col-md-6">
-         <div className="form-group"><input placeholder="Telefon nummer" type="number" id="formBasicEmail" className="form-control" /><i className="fa fa-phone"></i></div>
+         <div className="form-group"><input placeholder="Telefon nummer" type="number" name="number" id="formBasicEmail" className="form-control" /><i className="fa fa-phone"></i></div>
       </div>
       <div className="col-md-12">
-         <div className="form-group"><input placeholder="Email" type="email" id="formBasicEmail" className="form-control" /><i className="fa fa-envelope"></i></div>
+         <div className="form-group"><input placeholder="Email" type="email" name="email" id="formBasicEmail" className="form-control" /><i className="fa fa-envelope"></i></div>
       </div>
  
       <div className="col-md-6">
          <label className="text-uppercase form-label">Ønskede teetid</label>
-         <div className="form-group"><input placeholder="hh : mm" type="name" id="formBasicEmail" className="form-control" /><i className="fa fa-pencil"></i></div>
+         <div className="form-group"><input placeholder="hh : mm" type="name" name="time"   id="formBasicEmail" className="form-control" /><i className="fa fa-pencil"></i></div>
       </div>
       <div className="col-md-12">
          <div className="form-group row">
             <label className="text-uppercase form-label col-form-label col-6">Inklusiv transport?</label>
             <div className="col-6">
                <div className="radio-custom">
-                  <div className="form-check"><input name="formHorizontalRadios" type="radio" id="formHorizontalRadios1" className="form-check-input" /><label title="" for="formHorizontalRadios1" className="form-check-label">Ja tak</label></div>
-                  <div className="form-check"><input name="formHorizontalRadios" type="radio" id="formHorizontalRadios2" className="form-check-input" /><label title="" for="formHorizontalRadios2" className="form-check-label">Nej tak</label></div>
+                  <div className="form-check"><input name="formHorizontalRadios" value="ja" type="radio" id="formHorizontalRadios1" className="form-check-input" /><label title="" for="formHorizontalRadios1" className="form-check-label">Ja tak</label></div>
+                  <div className="form-check"><input name="formHorizontalRadios" value="nej"  type="radio" id="formHorizontalRadios2" className="form-check-input" /><label title="" for="formHorizontalRadios2" className="form-check-label">Nej tak</label></div>
                </div>
             </div>
          </div>
