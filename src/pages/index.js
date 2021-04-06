@@ -39,7 +39,8 @@ const IndexPage = () => (
       </div>
       <div className="col-md-12">
          <div className="form-group"><textarea rows="4" placeholder="Evt yderligere info?" id="formBasicEmail" className="form-control"></textarea><i className="fa fa-pencil"></i></div>
-         <button type="button" className="btn-orange-sendmg mr-auto ml-auto btn btn-primary">Send</button>
+ 
+         <button>Send</button>
       </div>
 	  
 	  
